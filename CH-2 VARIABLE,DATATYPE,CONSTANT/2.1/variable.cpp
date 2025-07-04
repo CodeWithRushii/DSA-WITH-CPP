@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+main()
 {
     cout<<"daatype, constant , variable"<<endl
     <<endl;
