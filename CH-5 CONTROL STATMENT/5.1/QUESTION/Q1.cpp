@@ -12,10 +12,10 @@ main()
     
     if (num1 < num2)
     {
-        cout << "Minimum number is: " << num1 << endl;
+        cout << "min number is: " << num1 << endl;
     }
     else
     {
-        cout << "Minimum number is: " << num2  << endl;
+        cout << "min number is: " << num2  << endl;
     }
 }
