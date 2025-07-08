@@ -1,4 +1,3 @@
-// Write a Program to find the max number from the given 4 numbers using nested if else. 
 #include <iostream>
 using namespace std;   
 

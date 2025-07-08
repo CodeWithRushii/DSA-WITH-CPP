@@ -1,4 +1,3 @@
-// Write a Program to find the min number from the given 3 numbers using nested if else
 #include <iostream>
 using namespace std;
 
