@@ -58,6 +58,7 @@ main()
         break;
 
     case 3:
+    system("cls");
         cout << "Internet Recharge mate 1 dabavo" << endl;
         cout << "Top-up Recharge mate 2 dabavo" << endl;
         cout << "Special Recharge mate 3 dabavo" << endl;
