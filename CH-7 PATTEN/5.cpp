@@ -1,4 +1,4 @@
-// 1 11 111 11111 11111
+
 #include <iostream>
 using namespace std;
 
@@ -12,5 +12,4 @@ main()
         }
         cout << ",";
     }
-    return 0;
 }
