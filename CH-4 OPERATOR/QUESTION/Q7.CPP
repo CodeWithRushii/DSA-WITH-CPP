@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     int x, y, z;
     cout << "Enter value of x: ";
