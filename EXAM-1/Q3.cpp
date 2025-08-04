@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-main()
+int main()
 {
     int units;
     float amt;
