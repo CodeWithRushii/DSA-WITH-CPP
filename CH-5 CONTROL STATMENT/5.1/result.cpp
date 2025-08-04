@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     int marks;
     cout << "Enter your marks: ";

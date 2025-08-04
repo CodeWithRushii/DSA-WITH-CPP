@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-main()
+int main()
 {
     int age;
     cout << "Enter your age: ";
