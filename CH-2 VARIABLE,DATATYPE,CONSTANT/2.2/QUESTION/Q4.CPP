@@ -2,7 +2,7 @@
 #define PI 100
 using namespace std;
 
-main()
+int main()
 {
     int p, r, t;
 

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main()
+int int main()
 {
     int a=30, b=10;
 
