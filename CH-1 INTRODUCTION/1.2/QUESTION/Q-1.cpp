@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-main()
+int main()
 {
    cout<<"name\t: Rushi"<<endl;
    cout<<"age\t: 17"<<endl;
