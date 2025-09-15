@@ -4,7 +4,7 @@ using namespace std;
 class banksystem
 {
     int accountNumber;
-    char accountHolderName[30];
+    char accountHolderName[50];
 
 protected:
     long balance;
@@ -14,12 +14,12 @@ public:
     // setter
     void bankAccount()
     {
-        cout << "Enter Account Number := ";
+        cout << "Enter Account Number :- ";
         cin >> accountNumber;
         cin.ignore();
-        cout << "Enter Account Holder Name := ";
+        cout << "Enter Account Holder Name :- ";
         cin.getline(accountHolderName, 30);
-        cout << "Enter Your Bank Balance := ";
+        cout << "Enter Your Bank Balance :- ";
         cin >> balance;
     }
 
@@ -30,14 +30,14 @@ public:
 
     void deposit()
     {
-        cout << "Enter Deposite Amount := ";
+        cout << "Enter Deposite Amount :- ";
         cin >> this->amount;
         this->balance += amount;
     }
 
     void setwithdraw()
     {
-        cout << "Enter Withdraw Amount := ";
+        cout << "Enter Withdraw Amount :- ";
         cin >> this->amount;
     }
 
@@ -57,14 +57,14 @@ public:
 
     void getBalance()
     {
-        cout << "Balance := " << this->balance;
+        cout << "Balance :- " << this->balance;
     }
 
     void getAccountInfo()
     {
-        cout << "Account Number := " << accountNumber << endl;
-        cout << "Account Holder Name := " << accountHolderName << endl;
-        cout << "Balance := " << balance << endl;
+        cout << "Account Number :- " << accountNumber << endl;
+        cout << "Account Holder Name :- " << accountHolderName << endl;
+        cout << "Balance :- " << balance << endl;
     }
 };
 
@@ -78,9 +78,9 @@ public:
         interestRate = 7.5 / 100;
         float interest = balance * interestRate;
         cout << endl
-             << "Interest := " << interest << endl;
+             << "Interest :- " << interest << endl;
         balance += interest;
-        cout << "Balance after Interest := " << balance << endl
+        cout << "Balance after Interest :- " << balance << endl
              << endl;
     }
 };
@@ -119,6 +119,6 @@ public:
         Interest = balance * 0.07 * (12 / term);
         cout << endl
              << endl
-             << " Deposit Interest := " << Interest;
+             << " Deposit Interest :- " << Interest;
     }
 };

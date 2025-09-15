@@ -11,14 +11,14 @@ int main()
         CheckingAccount ca;
         FixedDepositAccount fa;
 
-        cout << "1. Create Account\n";
-        cout << "2. Deposit\n";
-        cout << "3. Withdraw\n";
-        cout << "4. Get Balance\n";
-        cout << "5. Get Account Info\n";
-        cout << "6. Set Interest Rate\n";
-        cout << "7. Check Overdraft\n";
-        cout << "8. Exit\n";
+        cout << "1. Create Account" << endl;
+        cout << "2. Deposit" << endl;
+        cout << "3. Withdraw" << endl;
+        cout << "4. Get Balance" << endl;
+        cout << "5. Get Account Info" << endl;
+        cout << "6. Set Interest Rate" << endl;
+        cout << "7. Check Overdraft" << endl;
+        cout << "8. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
 
@@ -26,7 +26,7 @@ int main()
         {
         case 1:
             sa.bankAccount();
-            cout << "Account Created Successfully\n";
+            cout << "Account Created Successfully" << endl;
             break;
         case 2:
             sa.deposit();
@@ -54,10 +54,10 @@ int main()
             cout << endl;
             break;
         case 8:
-            cout << "Exiting...\n";
+            cout << "Exiting..." << endl;
             break;
         default:
-            cout << "Invalid choice. Please try again.\n";
+            cout << "Invalid choice. Please try again." << endl;
         }
     } while (choice != 0 && choice != 8);
 }
